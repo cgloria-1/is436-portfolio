@@ -25,17 +25,17 @@ h1, h2, h3, h4, h5, h6 {
 a { transition: color 0.2s; }
 
 /* ── Navbar ── */
-.navbar-coffee {
+.navbar-ocean {
   background-color: var(--deep);
   padding: 0.85rem 0;
 }
-.navbar-coffee .navbar-brand {
+.navbar-ocean .navbar-brand {
   color: var(--foam) !important;
   font-family: 'Playfair Display', serif;
   font-size: 1.35rem;
   letter-spacing: 0.3px;
 }
-.navbar-coffee .nav-link {
+.navbar-ocean .nav-link {
   color: rgba(214, 228, 240, 0.85) !important;
   font-weight: 500;
   font-size: 0.93rem;
@@ -43,18 +43,18 @@ a { transition: color 0.2s; }
   border-radius: 20px;
   transition: all 0.2s;
 }
-.navbar-coffee .nav-link:hover,
-.navbar-coffee .nav-link.active {
+.navbar-ocean .nav-link:hover,
+.navbar-ocean .nav-link.active {
   color: var(--wave) !important;
   background-color: rgba(90, 155, 200, 0.15);
 }
-.navbar-coffee .navbar-toggler {
+.navbar-ocean .navbar-toggler {
   border: none;
   box-shadow: none;
 }
 
 /* ── Buttons ── */
-.btn-coffee {
+.btn-ocean {
   background-color: var(--ocean);
   border: 2px solid var(--ocean);
   color: #fff;
@@ -62,12 +62,12 @@ a { transition: color 0.2s; }
   padding: 0.5rem 1.5rem;
   font-weight: 600;
 }
-.btn-coffee:hover, .btn-coffee:focus {
+.btn-ocean:hover, .btn-ocean:focus {
   background-color: var(--deep);
   border-color: var(--deep);
   color: #fff;
 }
-.btn-outline-coffee {
+.btn-outline-ocean {
   background: transparent;
   border: 2px solid var(--ocean);
   color: var(--ocean);
@@ -75,7 +75,7 @@ a { transition: color 0.2s; }
   padding: 0.5rem 1.5rem;
   font-weight: 600;
 }
-.btn-outline-coffee:hover, .btn-outline-coffee:focus {
+.btn-outline-ocean:hover, .btn-outline-ocean:focus {
   background-color: var(--ocean);
   border-color: var(--ocean);
   color: #fff;
@@ -116,35 +116,35 @@ a { transition: color 0.2s; }
 }
 
 /* ── Cards ── */
-.card-warm {
+.card-mist {
   background: #fff;
   border: 1px solid var(--foam);
   border-radius: 16px;
   box-shadow: 0 2px 16px rgba(19, 64, 94, 0.06);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-.card-warm:hover {
+.card-mist:hover {
   transform: translateY(-4px);
   box-shadow: 0 10px 32px rgba(19, 64, 94, 0.11);
 }
-.card-header-coffee {
+.card-header-deep {
   background: linear-gradient(135deg, var(--deep), var(--ocean));
   color: var(--foam);
   border-radius: 15px 15px 0 0 !important;
   padding: 1.2rem 1.5rem;
 }
-.card-header-coffee small { opacity: 0.75; }
+.card-header-deep small { opacity: 0.75; }
 
 /* ── Section backgrounds ── */
-.bg-cream    { background-color: var(--mist); }
-.bg-latte    { background-color: var(--foam); }
-.bg-espresso { background-color: var(--deep); }
+.bg-mist  { background-color: var(--mist); }
+.bg-foam  { background-color: var(--foam); }
+.bg-deep  { background-color: var(--deep); }
 
 /* ── Text helpers ── */
-.text-coffee     { color: var(--ocean); }
-.text-caramel    { color: var(--wave); }
-.text-espresso   { color: var(--deep); }
-.text-warm-muted { color: var(--text-muted); }
+.text-ocean      { color: var(--ocean); }
+.text-wave       { color: var(--wave); }
+.text-deep       { color: var(--deep); }
+.text-mist-muted { color: var(--text-muted); }
 
 /* ── Icon circles ── */
 .icon-circle {
@@ -176,8 +176,8 @@ a { transition: color 0.2s; }
   background-color: var(--foam);
   border-radius: 20px;
 }
-.progress-bar-coffee  { background-color: var(--ocean)  !important; }
-.progress-bar-caramel { background-color: var(--wave) !important; }
+.progress-bar-ocean { background-color: var(--ocean) !important; }
+.progress-bar-wave  { background-color: var(--wave)  !important; }
 
 /* ── Profile circle ── */
 .profile-circle {
@@ -233,7 +233,7 @@ footer a {
 footer a:hover { color: var(--foam); }
 
 /* ── List group overrides ── */
-.list-warm .list-group-item {
+.list-mist .list-group-item {
   background: transparent;
   border-color: var(--foam) !important;
   padding-left: 0;
