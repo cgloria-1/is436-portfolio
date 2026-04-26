@@ -1,4 +1,4 @@
-# is436-portfolio
+# IS 436-portfolio
 
 This is a personal portfolio about Christian Gloria for IS 436 at UMBC.
 
